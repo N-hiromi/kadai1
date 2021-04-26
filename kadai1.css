@@ -1,0 +1,669 @@
+*{
+  margin:0;
+  padding:0;
+}
+.home{
+  font-size:0px;
+  line-height:1.5;
+}
+.home ul{list-style: none;}
+.home a{text-decoration: none;
+      color:black;}
+img{
+  width:100%;
+}
+/*header*/
+.top{
+ height:604.66px;
+ margin:0 auto;
+ background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
+ background-size: auto 100%;
+ background-repeat: no-repeat;
+ background-position:center;
+ position:relative;
+}
+
+.top .header-logo img{
+  width:185px;
+  height:20px;
+  margin:1.5% 0 0 10%;
+}
+
+.top nav{
+  float:right; 
+  width:60%;
+  margin-top:2%;
+  padding-right:6%;
+}
+
+.top nav ul{
+  display:flex; 
+  line-height:1.2;
+}
+.top nav ul li{
+  font-size:12px;
+  padding-left:4%;
+  text-align: center;
+  font-family:"lato";
+  font-weight:bold;
+}
+
+.top nav ul li p{
+  font-size:10px;
+}
+.top nav ul .orange{
+  background-color:#F79314;
+  border-color:#F79314;
+  border-radius: 20px 20px 20px 20px;
+  font-family:"lato";
+  font-weight:normal;
+  padding:10px 20px 10px 20px;
+  margin-left:50px;
+}
+.top nav ul .orange a{
+  color:#FFF;
+}
+
+.header-main{
+  position:relative;
+  max-width:1140px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15%;
+  height:55%;
+}
+
+.header-main .black-potepan-logo{
+  width:337px;
+  height:36.66px;
+}
+
+.header-main .number1{
+  width:154px;
+  height:154px;
+  position:absolute;
+  top:0px;
+  left:30%;
+}
+.header-main .herotext{
+  margin-top:2%;
+  line-height:0.9;
+  font-size:20px;
+  height:20%;
+  font-weight:bold;
+}
+.header-main a{
+  font-size:16pt;
+  color:#FFF;
+  background-color:#F79314;
+  border-color:#F79314;
+  border-radius: 30px 30px 30px 30px;
+  font-family:"lato";
+  font-weight:normal;
+  padding:10px 30px 10px 30px;
+  position:absolute;
+  top:50%;
+}
+.header-main small{
+  display:block;
+  color:#888;
+  font-size:10px;
+  position:absolute;
+  top:90%;
+}
+header .clear{
+  clear:both;
+}
+.header-aside{
+  /*position:relative;*/
+  background-size:auto 100%;
+  background-color:#F79314;
+}
+.header-aside a img{
+  display:block;
+  width:1040px;
+  height:187.7px;
+  margin:50px auto;
+}
+.header-aside-about{
+  position:relative;
+  width: 1040px;
+}
+.header-aside-about h1 {
+  font-size:40px;
+  font-weight:bold;  
+  color:#FFF;
+  margin-left:14%;
+}
+.header-aside-about h1 strong{
+  font-size:50px;
+}
+.header-aside-about p{
+  display:block;
+  font-size:14px;
+  font-weight:bold;
+  color:#FFF;
+  width:570px;
+  margin-left:14%;
+  margin-bottom:5%;
+  line-height:2.2;
+}
+.header-aside-about .about{
+  font-size:18pt;
+  color:#F79314;
+  text-align: center;
+  background-color:#FFF;
+  border-color:#FFF;
+  border-radius: 30px 30px 30px 30px;
+  font-family:"lato";
+  font-weight:bold;
+  padding:0px 0px 0px 0px;
+  position:absolute;
+  top:20%;
+  left:80%;
+}
+.header-aside-about .about p{
+  font-size:14px;
+  color:#F79314;
+  margin:0 auto;
+  width:300px;
+}
+/*content-movie*/
+.main-contents{
+  margin:0 auto;
+  text-align: center;
+}
+.main-contents h1{
+  font-size:46px;
+  font-weight: bold;
+  margin:5% auto 0% auto;
+}
+.main-contents h2{
+  font-size:30px;
+  font-weight: bold;
+}
+.main-contents p{
+  font-size:16px;
+}
+.main-contents hr{
+ height: 7px;
+ background-color: #F79314;
+ width: 3.5%;
+ border: none;
+margin:2% auto;
+}
+
+iframe{
+  margin-top:10%;
+  margin-bottom:20%;
+}
+
+/*content-tokutyou*/
+.main-contents .tokutyou h4{
+  display:block;
+  font-size:16px;
+  font-weight:normal;
+  margin:2% auto 2% auto;
+}
+.main-contents .tokutyou .number{
+  color:#F79314;
+  font-size:40px;
+  font-weight: bold;
+  background-color:#fcfaf5;
+  border-color:#fcfaf5;
+  border-radius: 100px 100px 100px 100px;
+  width:110px;
+  height:110px;
+  margin:6% auto;
+  padding-top:2%;
+}
+
+.main-contents .box h2{
+  margin:5% auto 4% auto;
+}
+.main-contents .tokutyou .box{
+  background-color:#fcfaf5;
+  border-color:#fcfaf5;
+  border-radius: 20px 20px 20px 20px;
+  margin:-12% 13% 0% 13%;
+}
+.tenshokusaki img{
+  width:34px; 
+  height:35.5px;
+}
+.main-contents .tenshokusaki{
+  background-color:#FFF;
+  width:94%;
+  margin:0 auto 3% auto;
+  border-radius: 20px 20px 20px 20px;
+} 
+.tenshokusaki h3{
+  display:block;
+  font-size:24px;
+  border-bottom:solid;
+  border-bottom-color:#F79314;
+  width:21%;
+  margin:2% auto 0% auto;
+}
+
+.tenshokusaki .kigyou-logo li img{
+  width:20%;
+  height:10%;
+  margin:0 2%;
+}
+.tokutyou span{
+  font-size:30px;
+  font-weight:bold;
+  color:#F79314;
+}
+.jisseki{
+  background-color:#FFF;
+  width:94%;
+  margin:0 auto 3% auto;
+  border-radius: 20px 20px 20px 20px;
+}
+.jisseki img{
+  width:20%;
+  height:15%;
+  margin:2% 5% 2% 5%;
+}
+
+.tokutyou-03 ul{
+  display:flex;
+  justify-content:space-around;
+}
+.tokutyou-03 ul li{
+  background-color:#FFF;
+  border-radius: 20px 20px 20px 20px;
+  width:300px;
+  height:300px;
+  margin-bottom:3%;
+}
+
+.tokutyou-03 .kaisha-logo-1{
+  width:188px;
+  height:33px;
+  margin:17% auto 0% auto;
+}
+.tokutyou-03 .kaisha-logo-2{
+  width:260px;
+  height:126.95px;
+}
+.tokutyou-03 .kaisha-logo-3{
+  width:198px;
+  height:44.98px;
+  margin:13% auto 0% auto;
+}
+.tokutyou-03 .aikon{
+  width:60px;
+  height:60px;
+}
+  .tokutyou .engineer-profile{
+  margin:4% auto 0 auto;
+}
+ .tokutyou .engineer-profile-2{
+  margin:-10% auto 0 auto;
+}
+ .tokutyou .engineer-profile .aikon, .profile{
+  display:inline;
+  float:left;
+  text-align: left;
+  margin-left:5%;
+}
+.clear{
+  clear:both;
+}
+
+
+.tokutyou-03 p{
+  font-size:14px;
+  font-weight:normal;
+  color:#F79314;
+}
+.tokutyou-03 .profile h4{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.tokutyou .hukidashi{
+  position:relative;
+  font-size:14px;
+  font-weight:bold;
+  text-align: left;
+  background-color:#fcfaf5;
+  border-color:#fcfaf5;
+  border-radius: 20px 20px 20px 20px;
+  margin:10% 9% 8% 9%;
+}
+.tokutyou .hukidashi:before{
+  position:absolute;
+  content: "";
+  top: -20%;
+  left: -130%;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #fcfaf5;
+}
+/*course*/
+.course{
+  background-color:#f6f6f6;
+  position:relative;
+  padding-bottom:5%;
+  background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png");
+  background-repeat:no-repeat;
+  background-size: 20%;
+  background-position:85% 5%;
+  margin-top:10%;
+}
+.course .course-contents{
+  background-color:#FFF;
+  margin:2% 10%;
+  display:flex;
+  justify-content: space-between;
+  padding:30px 0px 30px 0px;
+}
+.course .course-contents h3{
+  font-size:24px;
+  border:solid;
+  padding:20px 10px;
+  width:24%;
+  box-sizing:border-box;
+  margin-left:-55px
+}
+
+.course .web h3{
+  border-color:#ff6d00;
+}
+.course .web-detail{
+  font-weight:bold;
+  color:#f79314;
+}
+.course .rails h3{
+  border-color:#f79214;
+  margin-left:-64px
+}
+.course .rails .course-detail{
+  margin-left:-6px;
+}
+.course .rails-detail{
+  font-weight:bold;
+  color:#f75307;
+}
+.course .course-contents h3 p{
+  font-size:24px;
+}
+.course-contents .oubo{
+  color:#FFF;
+  background-color:black;
+  border:1px black;
+  border-radius:20px;
+  width:20%;
+  margin-top:16px;
+}
+.course .detail-icon{
+  font-size:14px;
+  color:#999;
+}
+.course .detail-icon span{
+  font-size:14px;
+  color:#F79314;
+}
+
+.course .web-detail-icon{
+  margin:100px 0px  0px 0px;
+}
+.course .rails-detail-icon{
+  margin:100px 0px  0px 50px;
+}
+
+.course-contents li{
+  font-size:14px;
+  text-align: left;
+  list-style-image:radial-gradient(circle at 50% 50%,#f79314 50%,transparent 50%);
+  line-height:3;
+}
+.course .ryoukin{
+  display:block;
+  font-size:20px;
+  color:#FFF;
+  text-align: center;
+  background-color:#F79314;
+  border-color:#F79314;
+  border-radius: 40px 40px 40px 40px;
+  font-family:"lato";
+  font-weight:bold;
+  padding:5px 20px 5px 20px;
+  margin:5% 40%;
+}
+.course .ryoukin p{
+  font-size:14px;
+}
+/*service*/
+.service {
+  background-color:#fcfaf5;
+  margin:10% auto;
+  position:relative;
+  padding-bottom:30%;
+  
+}
+.service .title-message{
+  position:absolute;
+  color:#ff802c;
+  margin-right:52%;
+  font-weight:bold;
+  z-index: 1;
+  top:26%;
+  left:15%;
+}
+.service .message{
+  position:absolute;
+  background-color:#FFF;
+  width:39%;
+  height:45%;
+  top:42%;
+  left:14% ;
+ padding:3% 11% 0% 2%;
+ z-index: 0;
+}
+.service .message p{
+  font-size:14px;
+  display: flex;
+  text-align: left;
+  line-height: 2;
+  padding-bottom:5%;
+  
+}
+.service .shatyo-profile h3{
+  position: absolute;
+  font-size:14px;
+  color:#FFF;
+  text-align: left;
+  top:51%;
+  left:61%;
+ z-index: 3
+}
+.service .shatyo-profile h3 strong{
+  font-size:24px;
+  color:#FFF;
+  line-height:1;
+}
+.service .shatyo-profile img{
+  position:absolute;
+  width:400px;
+  height:240px;
+  z-index: 1;
+  top:50%;
+  left:60%;
+}
+.jyukoushanokoe ul{
+  margin:5% 13%;
+  display:flex;
+  justify-content: space-around;
+}
+.jyukoushanokoe ul li{
+  flex-basis:30%;
+  position:relative;
+}
+.jyukoushanokoe ul li p{
+  font-size:15px;
+  font-weight:bold;
+  margin-top:15px;
+  line-height: 1.8;
+  text-align: left;
+}
+.jyukoushanokoe ul li img{
+}
+.jyukoushanokoe .jyukousha-profile{
+  position:relative;
+  width:100%;
+}
+.jyukoushanokoe .jyukousha-profile .background{
+  position:absolute;
+  background: linear-gradient(0deg,black,transparent);
+  width:100%;
+  height:70%;  
+  top:30%;
+}
+.jyukoushanokoe .jyukousha-profile h4{
+  position:absolute;
+  display:block;
+  font-size:16px;
+  color:#F79314;
+  width:80%;
+  text-align: left;
+  margin-left:6%;
+  top:70%;
+}
+.jyukoushanokoe .jyukousha-profile h3{
+  position:absolute;
+  display:block;
+  width:90%;
+  color:#FFF;
+  font-size:20px;
+  text-align: left;
+  margin-left:6%;
+  margin-right:10%;
+  border-top:#FFF solid 1px;
+  top:80%;
+}
+.jyukoushanokoe .jyukousha-profile span{
+  font-size:16px;
+  margin-right:12px;
+}
+.jyukoushanokoe .jyukousha-profile small{
+  display:inline;
+  font-size:12px;
+   color:#FFF;
+}
+jyukoushanokoe a:hover{
+  color:#F79314;
+}
+.jyukoushanokoe .interview{
+  display:block;
+  font-size:20px;
+  color:#FFF;
+  text-align: center;
+  background-color:#F79314;
+  border-color:#F79314;
+  border-radius: 40px 40px 40px 40px;
+  font-family:"lato";
+  font-weight:bold;
+  padding:5px 20px 5px 20px;
+  margin:5% 40%;
+}
+.jyukoushanokoe .interview p{
+ /* display:block;*/
+  font-size:14px;
+  color:#FFF;
+}
+
+/*service*/
+.potepan-service{
+  background-color:#f6f6f6;
+  position:relative;
+  padding-bottom:5%;
+  background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/bg-section-top-course.png");
+  background-repeat:no-repeat;
+  background-size: 20%;
+  background-position:85% 5%;
+}
+.potepan-service .service-contena ul{
+  display:flex;
+  margin:5% 11%;
+  justify-content: space-around;
+}
+.potepan-service .service-contena ul li{
+ flex-basis:28%;
+}
+
+.potepan-service .service-contena ul li img{
+ border:solid 2px;
+ background-color:#FFF;
+ border-radius: 10px;
+ box-sizing:border-box;
+}
+.potepan-service .service-contena ul li .free img,.career img{
+ padding:20% 5%;
+}
+.potepan-service .service-contena ul li .style img{
+ padding:19% 5%;
+}
+.potepan-service .service-contena ul li .free img{
+ border-color:#F79314;
+}
+.potepan-service .service-contena ul li .career img{
+ border-color:#08af77;
+}
+.potepan-service .service-contena p{
+  text-align: left;
+  padding-top:14px;
+}
+.potepan-service .service-contena a:hover{
+  color:#F79314;
+}
+/*footer*/
+footer{
+  background-color:#F79314;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10% 5% 5%;
+  color:#FFF;
+}
+footer .left-side{
+  flex-basis:30%;
+}
+footer nav{
+  flex-basis:30%;
+}
+footer li{
+  font-size:16px;
+  color:#FFF;
+}
+footer nav ul{
+  line-height: 3;
+}
+footer nav ul li a{
+  color:#FFF !important;
+}
+footer .potepan-footer-logo img{
+  width:280px;
+  height:30px;
+  margin-bottom:30px;
+}
+footer .footer-adress{
+  margin-top:16px;
+}
+footer .sns img{
+  width:60px;
+  height:60px;
+  margin-top:30px;
+}
+footer .sns .twitter{
+  margin-left:20px;
+}
+footer .potepanda {
+  width:121.5px;
+  height:70px;
+  margin-top:210px;
+  
+}
+
